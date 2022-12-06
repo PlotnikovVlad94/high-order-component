@@ -16,4 +16,9 @@ const ProductCardCompound = ({ children }: Props) => (
     </div>
 );
 
+ProductCardCompound.Content = Content;
+ProductCardCompound.Button = Button;
+ProductCardCompound.Img = Img;
+ProductCardCompound.displayName = "ProductCardCompound";
+
 export { ProductCardCompound };

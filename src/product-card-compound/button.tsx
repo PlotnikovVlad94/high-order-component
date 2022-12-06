@@ -7,4 +7,5 @@ type Props = {
 
 export const Button = ({ children, onClick }: Props) => {
     /** implement me */
+    return (<div onClick={onClick}>{children}</div>)
 };

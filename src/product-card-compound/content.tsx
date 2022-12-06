@@ -6,4 +6,5 @@ type Props = {
 
 export const Content = ({ children }: Props) => {
     /** implement me */
+    return <div>{children}</div>
 };
